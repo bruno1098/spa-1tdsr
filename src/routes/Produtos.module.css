@@ -1,0 +1,40 @@
+
+.tblEstilo{
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+
+    .tblHeader{
+        background-color: #a8a7a5;
+        & th{
+            border: 2px solid #ccc;
+            text-align: center;
+        }
+    }
+
+    .tblRow{
+        background-color: #fff8dc;
+        
+        &:hover{
+            background-color: #6b7171;
+            color: #fff;
+        }
+
+        & td{
+            border: 2px solid #ccc;
+            &:first-child{
+                text-align: center;
+            }
+            &:last-child{
+                text-align: center;
+            }
+
+            & img{
+                width: 30%;
+            }
+        }
+
+    }
+
+}
+
